@@ -1,0 +1,1 @@
+player setPos [(getPos fob_blue select 0)+0, (getPos fob_blue select 1)-2, getPos fob_blue select 2];
