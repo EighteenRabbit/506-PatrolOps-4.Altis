@@ -1,6 +1,6 @@
 // Teleports
 fob_blue addAction ["To Airfield", "template\tpto_fob_blue_1.sqf"];
-fob_blue_1 addAction ["To FOB Shifty", "template\tpto_fob_blue.sqf"];
+fob_blue_1 addAction ["To Armory", "template\tpto_fob_blue.sqf"];
 
 //TFAR Options
 TF_give_personal_radio_to_regular_soldier = true;
