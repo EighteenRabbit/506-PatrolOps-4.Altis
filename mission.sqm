@@ -530,7 +530,7 @@ class Mission
 				angles[]={0.0013372133,0.80405557,0.0013372133};
 			};
 			name="PO4_Module_VehicleDepot_F_2";
-			init="[this,[""LandVehicle""],""FactionTypeBLU""] call MPSF_fnc_createVirtualDepot;" \n "[this,""Virtual Vehicle Depot""] call MPSF_fnc_createIntelBeacon;";
+			init="call{[this,[""MRAP_01_base_F"",""CUP_B_Mastiff_HMG_GB"",""CUP_B_Mastiff_GMG_GB"",""CUP_B_Mastiff_LMG_GB""],""FactionTypeBLU""] call MPSF_fnc_createVirtualDepot;" \n "[this,""Virtual Vehicle Depot""] call MPSF_fnc_createIntelBeacon;}";
 			id=4;
 			type="Logic";
 		};
@@ -556,7 +556,7 @@ class Mission
 				angles[]={0.0013372133,0.79976231,0.0013372133};
 			};
 			name="PO4_Module_VehicleDepot_F_3";
-			init="[this,[""LandVehicle""],""FactionTypeBLU""] call MPSF_fnc_createVirtualDepot;" \n "[this,""Virtual Vehicle Depot""] call MPSF_fnc_createIntelBeacon;";
+			init="call{[this,[""MRAP_01_base_F"",""CUP_B_Mastiff_HMG_GB_D"",""CUP_B_Mastiff_GMG_GB_D"",""CUP_B_Mastiff_LMG_GB_D"",""CUP_RG31_M2_GC""],""FactionTypeBLU""] call MPSF_fnc_createVirtualDepot;" \n "[this,""Virtual Vehicle Depot""] call MPSF_fnc_createIntelBeacon;}";
 			id=11;
 			type="Logic";
 		};
