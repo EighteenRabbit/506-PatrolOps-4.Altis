@@ -6029,7 +6029,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="[this,""Virtual Armoury""] call MPSF_fnc_createIntelBeacon;";
+						init="call{null = [this] execVM ""scripts\box_virtualarsenal.sqf""; this addAction [""Clear Loadout"", ""scripts\clear_loadout.sqf"", [],6,true,true,"""",""_this distance _target < 5""];}";
 						disableSimulation=1;
 					};
 					id=6;
@@ -6070,7 +6070,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="[this,""Virtual Armoury""] call MPSF_fnc_createIntelBeacon;";
+						init="call{null = [this] execVM ""scripts\box_virtualarsenal.sqf""; this addAction [""Clear Loadout"", ""scripts\clear_loadout.sqf"", [],6,true,true,"""",""_this distance _target < 5""];}";
 						disableSimulation=1;
 					};
 					id=8;
@@ -6111,7 +6111,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="[this,""Virtual Armoury""] call MPSF_fnc_createIntelBeacon;";
+						init="call{null = [this] execVM ""scripts\box_virtualarsenal.sqf""; this addAction [""Clear Loadout"", ""scripts\clear_loadout.sqf"", [],6,true,true,"""",""_this distance _target < 5""];}";
 						disableSimulation=1;
 					};
 					id=10;
